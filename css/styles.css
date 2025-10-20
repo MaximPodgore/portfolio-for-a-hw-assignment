@@ -1,0 +1,17 @@
+profile-card{
+  display:block;
+  box-sizing:border-box;
+  max-width:320px;
+  border-radius:10px;
+  overflow:hidden;
+  border: 1px solid black;
+  font-size:0.95rem;
+}
+profile-card .avatar{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width:64px;height:64px;
+  background:var(--accent);
+  font-weight:700;border-radius:8px;
+}
